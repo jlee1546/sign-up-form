@@ -1,4 +1,4 @@
-/* Reset */
+/*   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 */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -39,4 +39,29 @@ img {
 
 body {
   display: flex;
+}
+
+.section1 {
+  background-image: url("storm.jpeg");
+  width: 75%;
+  height: 100vh;
+}
+
+.section2 {
+  border: 2px solid red;
+  height: 100vh;
+}
+
+.form-info {
+  border: 2px solid red;
+  height: 33vh;
+}
+.form-controls {
+  border: 2px solid red;
+  height: 33vh;
+}
+
+.form-submit {
+  border: 2px solid red;
+  height: 33vh;
 }
