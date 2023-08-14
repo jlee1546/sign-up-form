@@ -1,4 +1,3 @@
-/*   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 */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -77,13 +76,9 @@ img {
 }
 
 .form-info,
-.form-submit {
-  flex: 1;
-}
-
-.form-info,
 .form-controls,
 .form-submit {
+  flex: 1;
   min-width: 725px;
   width: 100%;
 }
@@ -98,7 +93,7 @@ img {
 }
 
 .form-info > p {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   font-weight: bold;
   font-size: 1.2rem;
   width: 80%;
@@ -112,6 +107,7 @@ img {
   justify-content: space-between;
   box-shadow: 0 3px 5px 5px rgb(13, 13, 13, 0.1);
   padding: 3rem;
+  position: relative;
 }
 
 .form-controls > p {
@@ -142,11 +138,11 @@ li {
 
 label {
   font-size: 0.8rem;
-  margin-bottom: 5px;
+  margin-bottom: 0.3rem;
 }
 
 input {
-  width: 200px;
+  width: 12.5rem;
   border-radius: 4px;
   border: 1px solid #163805;
   height: 2rem;
@@ -155,8 +151,15 @@ input {
 
 input:focus {
   border: none;
-  outline: none;
+
   background: rgb(210, 208, 208);
+}
+
+span.visible::after {
+  font-size: 0.7rem;
+  color: red;
+  content: "Passwords do not match";
+  padding-top: 0.125rem;
 }
 
 .form-submit {
@@ -164,7 +167,6 @@ input:focus {
   padding: 3rem;
   width: 100%;
   display: relative;
-  z-index: -1;
 }
 
 button {
